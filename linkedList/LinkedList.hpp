@@ -33,7 +33,7 @@ int LinkedList<T>::size() const
 		Fix this method
 	*/
 
-	return m_size ;
+	return m_size ; 
 }
 
 template <typename T>
@@ -144,7 +144,7 @@ bool LinkedList<T>::removeBack()
 	//delete last Node
 	delete lastNode;
 
-	m_size--; 
+	m_size--;
 
 	//change secondintoLast point to nullptr
 	secondintoLast->setNext(nullptr);
